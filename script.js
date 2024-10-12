@@ -20,7 +20,7 @@ const iconClose = document.querySelector('.icon-close');
                 var password = document.getElementById("password_user").value;
                 if(email== "admin@gmail.com" && password=="admin123") {
                   /*  location.assign("https://zicostore.com"); */
-					window.open("glass.html");
+					window.open("welcome.html");
                     alert("Login Successfully ");
                 } 
                 else {
